@@ -1,0 +1,98 @@
+body {
+    background-color: aquamarine;
+}
+
+.all-articles{
+    margin: auto;
+    width: 540px;
+    background-color: lightgray;
+}
+
+#gameplace {
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+img{
+    width: 59px;
+    height: 59px;
+    cursor: pointer;
+}
+.row {
+    margin: auto;
+    height: 60px;
+    width: 540px;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 250%;
+    color:white;
+}
+
+a{
+    font-size: medium;
+    display: block;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: red;
+    height: 33px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.prompt{
+    width: 536px;
+    background-color: rgb(242, 201, 76, 1 );
+}
+
+.prompt2{
+    width: 536px;
+    background-color: rgb(130, 130, 130, 1);
+
+}
+
+.square {
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+}
+
+.grassland {
+    background-color: rgba(80, 211, 31, 1);
+}
+
+.forest{
+    background-color: rgba(69, 107, 56, 1);
+}
+
+.residential{
+    background-color: rgb(242, 153, 74, 1);
+}
+
+.swamp{
+    background-color: rgb(130, 130, 130, 1);
+}
+
+.desert{
+    background-color: rgb(242, 201, 76, 1 );
+}
+
+.oasis{
+    background-color: rgb(45, 156, 219, 1);
+}
+
+p{
+    position:absolute;
+}

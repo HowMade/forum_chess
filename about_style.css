@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+.all-articles{
+    margin: auto;
+    width: 540px;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.article{
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
